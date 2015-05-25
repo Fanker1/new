@@ -4,10 +4,11 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 
-
-public class calc{
-	public static void main(String[]args){
-	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+public class calc
+{
+    public static void main(String[] args) throws Exception
+    {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Scanner sc = new Scanner(System.in);
         System.out.print("#");
         int a = sc.nextInt();
@@ -22,5 +23,6 @@ public class calc{
             else if(b.equals("/")) r = a / d;
         System.out.print("result ");
         System.out.println(r);
-	}
+    }
 }
+
